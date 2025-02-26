@@ -1,0 +1,58 @@
+/* Custom Styles */
+.hero {
+    background-image: url('https://via.placeholder.com/1500x800'); /* Replace with your image */
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .social-icons a {
+    margin: 0 10px;
+    color: white;
+}
+
+.footer .social-icons a:hover {
+    color: #007bff;
+}
+
+.social-icons {
+    padding-top: 10px;
+}
+
+#about img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
